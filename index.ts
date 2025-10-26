@@ -27,7 +27,7 @@ function filterUsers(users: User[]): User[] {
 }
 
 function printUsers(users: User[]): void {
-  console.log("Users in cities that contain 'p':");
+  console.log("Users in cities that contain 'o':");
   users.forEach(user =>
     console.log(`- ${user.name} (${user.email})`)
   );
